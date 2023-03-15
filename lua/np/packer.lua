@@ -25,6 +25,10 @@ return require('packer').startup(function(use)
   use('ThePrimeagen/harpoon')
   use('mbbill/undotree')
   use('tpope/vim-fugitive')
+  use 'simrat39/rust-tools.nvim'
+
+  -- Debugging
+  use 'mfussenegger/nvim-dap'
 
   use {
 	  'VonHeikemen/lsp-zero.nvim',
